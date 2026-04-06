@@ -35,6 +35,7 @@
 | **Core Scientific** | Austin, USA | H100, colo | 🟢 ~200 MW | ~500 MW pipeline | CoreWeave colo deals; HPC pivot from Bitcoin mining |
 | **WhiteFiber** (WYFI) | USA | GPU cloud | 🟢 — | Publicly traded | +179% NTM revenue growth expected |
 | **FluidStack** | London, UK | H100, H200 | 🟢 400+ MW | Anthropic $50B; Hut8 $7B; TeraWulf $9.5B | Critical GPU infra intermediary |
+| **Firmus** | Australia | NVIDIA (NCP; thousands of GPUs) | 🟡 90 MW Tasmania by 2026 | $10B Blackstone/Coatue financing; target hundreds of thousands of GPUs | Founded 2019; $5.5B valuation; NVIDIA-backed; liquid-everywhere AI Factory design; proprietary AI FactoryOS + SMC cloud; Vast Data AI OS; Project Southgate hyperscale contract |
 
 ---
 
