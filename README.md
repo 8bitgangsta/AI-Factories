@@ -18,8 +18,8 @@
 | **CoreWeave** (CRWV) | NJ, USA | H100, H200, A100, GB200 | 🟢 850 MW | 3.1 GW contracted; 43 DCs; $55.6B backlog | Market leader; OpenAI $12B, Meta $14B, NVIDIA $6.3B; $12–13B 2026 rev guided |
 | **Nebius Group** (NBIS) ◆ | Amsterdam, NL | H100, H200, GB300 | 🟢 170–220 MW | 2.5–3 GW; Finland 310MW, France 240MW, Missouri 1.2GW | Microsoft $17–19B + Meta $27B; $7–9B ARR target 2026; NVIDIA $2B investment |
 | **Lambda Labs** | San Francisco, USA | H100, H200, B200, GB300 NVL72 | 🟢 ~320 MW | 3 GW by 2030 | $2.3B raised; NVIDIA $1.5B leaseback 18K GPUs; Microsoft multi-B contract |
-| **Crusoe Energy** ◆ | Denver, USA | H100, GB200 NVL72 | 🟢 ~400 MW | 45 GW pipeline; OpenAI Abilene 1.2GW | $10B+ valuation; NVIDIA + Founders Fund; Stargate flagship |
-| **Nscale** | London, UK | NVIDIA GB300 (~200K) | 🟡 ~50–100 MW | TX 240MW→1.2GW; Norway 230MW; UK 90MW | NVIDIA-backed $1.1B; Microsoft 200K GB300; Stargate Norway |
+| **Crusoe Energy** ◆ | Denver, USA | H100, GB200 NVL72 | 🟢 ~400 MW | 45 GW pipeline; OpenAI Abilene 1.2GW campus | $10B+ valuation; NVIDIA + Founders Fund; Stargate flagship |
+| **Nscale** | London, UK | NVIDIA GB300 (~200K) | 🟡 ~50–100 MW | TX 240MW→1.2GW; Norway 230MW; UK 90MW; Portugal 50MW | NVIDIA-backed $1.1B; Microsoft 200K GB300 contract; Stargate Norway |
 
 ---
 
@@ -35,7 +35,7 @@
 | **Core Scientific** | Austin, USA | H100, colo | 🟢 ~200 MW | ~500 MW pipeline | CoreWeave colo deals; HPC pivot from Bitcoin mining |
 | **WhiteFiber** (WYFI) | USA | GPU cloud | 🟢 — | Publicly traded | +179% NTM revenue growth expected |
 | **FluidStack** | London, UK | H100, H200 | 🟢 400+ MW | Anthropic $50B; Hut8 $7B; TeraWulf $9.5B | Critical GPU infra intermediary |
-| **Firmus** | Australia | NVIDIA (NCP; thousands of GPUs) | 🟡 90 MW Tasmania by 2026 | $10B Blackstone/Coatue financing; target hundreds of thousands of GPUs | Founded 2019; $5.5B valuation; NVIDIA-backed; liquid-everywhere AI Factory design; proprietary AI FactoryOS + SMC cloud; Vast Data AI OS; Project Southgate hyperscale contract |
+| **Firmus** | Australia | NVIDIA (NCP; thousands of GPUs) | 🟡 90 MW Tasmania by 2026 | $10B Blackstone/Coatue financing; target hundreds of thousands of GPUs | Founded 2019; $5.5B valuation; NVIDIA-backed; liquid-everywhere AI Factory design; proprietary AI FactoryOS + SMC cloud platform; Vast Data AI OS; Project Southgate hyperscale contract; Australia sovereign AI flagship |
 
 ---
 
