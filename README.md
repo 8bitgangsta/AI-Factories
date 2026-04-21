@@ -1,8 +1,3 @@
-from pathlib import Path
-
-content = r"""# AI Factories & GPU Infrastructure — Master List 2026
-
-> Comprehensive reference of neoclouds, sovereign AI clouds, telco AI factories, alternative GPU infrastructure providers, and adjacent infrastructure buyers. Includes verified leadership contacts with LinkedIn profiles. Cross-referenced with Datum Cloud awesome-alt-clouds. Updated via AI-assisted research.
 
 **Legend:**
 - 🟢 = Operational / Live
