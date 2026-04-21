@@ -1,6 +1,8 @@
-# AI Factories & GPU Infrastructure — Master List 2026
+from pathlib import Path
 
-> Comprehensive reference of neoclouds, sovereign AI clouds, telco AI factories, and alternative GPU infrastructure providers. Includes verified leadership contacts with LinkedIn profiles. Cross-referenced with [Datum Cloud awesome-alt-clouds](https://github.com/datum-cloud/awesome-alt-clouds). Updated via AI-assisted research.
+content = r"""# AI Factories & GPU Infrastructure — Master List 2026
+
+> Comprehensive reference of neoclouds, sovereign AI clouds, telco AI factories, alternative GPU infrastructure providers, and adjacent infrastructure buyers. Includes verified leadership contacts with LinkedIn profiles. Cross-referenced with Datum Cloud awesome-alt-clouds. Updated via AI-assisted research.
 
 **Legend:**
 - 🟢 = Operational / Live
@@ -16,11 +18,40 @@
 > Key insights for business development and lead generation:
 
 - **NVIDIA NCP program is the gatekeeper** — every serious GPU cloud is an NVIDIA Cloud Partner. The NVIDIA partner network is the fastest route to warm intros across all tiers.
-- **Former crypto miners = best warm leads** — IREN, TeraWulf, Core Scientific, Hut 8, Cipher Mining all pivoted from crypto. CFOs/CEOs respond well to infrastructure financing, colocation, and power deals.
-- **LinkedIn is highly active** — Josh Payne (Nscale), Michael Intrator (CoreWeave), Arkady Volozh (Nebius), Tim Rosenfield (Firmus) all post daily. Direct outreach converts.
-- **Two-CEO structures are common** — IREN (Daniel + William Roberts), Firmus (Tim Rosenfield + Oliver Curtis). Always pitch both co-CEOs.
-- **Sovereign cloud = government procurement cycles** — Deutsche Telekom, Orange Business, Telenor, Swisscom all have dedicated public sector sales teams. Entry point is through their enterprise/govt divisions.
-- **Power + land = the real bottleneck** — Companies with secured grid-connected power (IREN 2.9GW, CoreWeave 3.1GW contracted) are more valuable than GPU count alone. Power brokers and utilities are tier-1 partners.
+- **Former crypto miners = best warm leads** — IREN, TeraWulf, Core Scientific, Hut 8, Cipher Mining, Riot, and Marathon all have infrastructure DNA and strong sensitivity to power, cooling, and balance-sheet efficiency.
+- **LinkedIn is highly active** — Josh Payne (Nscale), Michael Intrator (CoreWeave), Arkady Volozh (Nebius), Tim Rosenfield (Firmus) and many CEO/founder operators post frequently. Direct outreach converts.
+- **Two-CEO structures are common** — IREN (Daniel + William Roberts), Firmus (Tim Rosenfield + Oliver Curtis). Always pitch both co-CEOs where relevant.
+- **Sovereign cloud = government procurement cycles** — Deutsche Telekom, Orange Business, Telenor, Swisscom, Fastweb and peers have dedicated public-sector sales paths. Entry point is usually through enterprise/gov divisions, not central cloud engineering.
+- **Power + land = the real bottleneck** — companies with secured grid-connected power and campus rights are often more valuable than raw GPU count alone. Power brokers, utilities, and data center developers are tier-1 partners.
+- **Not every GPU company is a real infrastructure buyer** — prioritize operators that own sites, power, interconnect, or dedicated capacity commitments over pure API layers and marketplace resellers.
+
+---
+
+## Tier 0 — Frontier AI Labs / Demand Drivers
+
+> These are not always direct infrastructure customers, but they are the largest upstream drivers of AI factory demand and often determine where capacity gets financed, built, and reserved.
+
+| Company | HQ | Infra Model | Why It Matters |
+|---|---|---|---|
+| **OpenAI** | San Francisco, USA | Hybrid / partner-led | Largest external driver of GPU campus demand; shapes neocloud and sovereign buildouts |
+| **Anthropic** | San Francisco, USA | Partner-led | Massive long-duration capacity commitments; key driver of third-party AI infrastructure demand |
+| **xAI** | Memphis, USA | Hybrid owned + external | Rapid self-build plus spillover demand; influences supplier ecosystem and specialized networking needs |
+| **Mistral AI** | Paris, France | Hybrid / sovereign-aligned | Major EU demand signal for sovereign compute, European data residency, and local cloud partnerships |
+| **Cohere** | Toronto, Canada | Partner-led | Enterprise AI workloads can create regional sovereign and inference demand |
+| **AI21 Labs** | Tel Aviv, Israel | Partner-led | Strategic enterprise AI demand driver in regulated and multilingual deployments |
+| **Inflection AI** | Palo Alto, USA | Partner-led | Important signal for enterprise-scale managed GPU consumption patterns |
+
+---
+
+## Tier 0 — Hyperscalers (Compete + Partner)
+
+> Hyperscalers are the largest direct GPU buyers globally, but they also route overflow demand to neoclouds, AI factories, and specialized operators.
+
+| Company | HQ | GPU / AI Stack | Role in Market | Why Relevant to hedgehog.cloud |
+|---|---|---|---|---|
+| **AWS** | Seattle, USA | NVIDIA, Trainium, Inferentia | Largest-scale cloud buyer and allocator of AI capacity | Potential partner, spillover route, and reference architecture influence |
+| **Microsoft Azure** | Redmond, USA | NVIDIA, Maia, sovereign variants | Largest external buyer of third-party neocloud capacity | Shapes buying behavior across CoreWeave, Nebius, IREN, and others |
+| **Google Cloud** | Mountain View, USA | NVIDIA, TPU | Large internal + partner-led AI infrastructure | Important indirect demand signal and overflow channel |
 
 ---
 
@@ -66,6 +97,8 @@
 | **WhiteFiber** (WYFI) | USA | GPU cloud | 🟢 — | Publicly traded | +179% NTM revenue growth expected |
 | **FluidStack** | London, UK | H100, H200 | 🟢 400+ MW via JVs | Anthropic $50B; Hut8 $7B; TeraWulf $9.5B | Critical GPU infra intermediary; wholesale + marketplace |
 | **Firmus** | Sydney, Australia | NVIDIA (NCP; thousands of GPUs) | 🟡 90 MW Tasmania by 2026 | $10B Blackstone/Coatue financing; hundreds of thousands GPUs target | Founded 2019; $5.5B valuation; NVIDIA-backed; liquid-everywhere AI Factory; AI FactoryOS + SMC cloud; Vast Data AI OS; Project Southgate |
+| **Riot Platforms** | Castle Rock, USA | Crypto infra pivot / hosted AI | 🟢 Large power base | Expanding AI/HPC optionality | Major Bitcoin miner with scale, power access, and likely AI conversion paths |
+| **Marathon Digital** | Fort Lauderdale, USA | Crypto infra pivot / hosted AI | 🟢 Large site base | Expanding AI/HPC optionality | Large public miner with real estate and power exposure relevant to AI factory conversions |
 
 ### Tier 2 Contacts
 
@@ -83,19 +116,21 @@
 | Firmus | Oliver Curtis | Co-CEO | [Search LinkedIn](https://www.linkedin.com/search/results/people/?keywords=Oliver%20Curtis%20Firmus%20Technologies%20CEO) |
 | Firmus | Daniel Kearney | CTO | [Search LinkedIn](https://www.linkedin.com/search/results/people/?keywords=Daniel%20Kearney%20Firmus%20CTO) |
 | Firmus | Kirsty Godfrey-Billy | CFO (ex-Xero CFO) | [Search LinkedIn](https://www.linkedin.com/search/results/people/?keywords=Kirsty%20Godfrey-Billy%20Firmus%20CFO) |
+| Riot Platforms | Jason Les | CEO | [Search LinkedIn](https://www.linkedin.com/search/results/people/?keywords=Jason%20Les%20Riot%20Platforms%20CEO) |
+| Marathon Digital | Fred Thiel | Chairman & CEO | [Search LinkedIn](https://www.linkedin.com/search/results/people/?keywords=Fred%20Thiel%20Marathon%20Digital%20CEO) |
 
 ---
 
 ## Sovereign AI Clouds — European Telco-Led AI Factories
 
-| Company | Nation | GPU / Compute | Scale | AI Cloud Product | Sovereign Mandate |
-|---|---|---|---|---|---|
-| **Deutsche Telekom** 📡 | 🇩🇪 Germany | NVIDIA DGX B200, RTX PRO (~10,000 GPUs) | 🟢 0.5 EFLOPS; Q1 2026 | **Industrial AI Cloud** — Munich DC; €1B with NVIDIA; 0.5 EFLOPS; 20 PB storage | Germany sovereign; SAP, Siemens, Perplexity customers; digital twins via NVIDIA Omniverse |
-| **Orange Business** 📡 | 🇫🇷 France | NVIDIA H100, Blackwell | 🟢 Live — EU-hosted | **Live Intelligence** — generative AI platform; NVIDIA NCP | France + Europe + Africa sovereign; 73,000 employees using daily; 30,000+ AI requests/day |
-| **Telenor** 📡 | 🇳🇴 Norway | NVIDIA AI Enterprise, GPU cluster | 🟢 Live + expanding | **Norway's first sovereign AI cloud** — new renewable-energy AI DC; surplus energy to grid | Norway sovereign; public sector, industrial automation, local LLMs; BabelSpeak multilingual AI |
-| **Swisscom** 📡 | 🇨🇭 Switzerland | NVIDIA DGX SuperPOD | 🟢 Live — Swiss AI Platform | **Swiss AI Platform + GenAI Studio** — enterprise AI agents; AI Work Hub; Model Catalog | Switzerland sovereign; banking, insurance, healthcare; Swiss data residency guaranteed |
-| **Telefónica** 📡 | 🇪🇸 Spain | NVIDIA GPUs (hundreds), NIM | 🟡 Piloting edge AI | **Distributed edge AI fabric** — inference at the edge across Spain | Spain sovereign; edge-first; data stays within borders; govt and financial services |
-| **Fastweb** 📡 | 🇮🇹 Italy | NVIDIA DGX AI supercomputer | 🟢 Live — Italy | **MIIA Italian LLM + sovereign AI cloud** — Italy's first Italian-language foundation model | Italy sovereign; Italian public admin + enterprise; NVIDIA EU sovereign program |
+| Company | Nation | GPU / Compute | Scale | AI Cloud Product | Sovereign Mandate | Procurement Motion |
+|---|---|---|---|---|---|---|
+| **Deutsche Telekom** 📡 | 🇩🇪 Germany | NVIDIA DGX B200, RTX PRO (~10,000 GPUs) | 🟢 0.5 EFLOPS; Q1 2026 | **Industrial AI Cloud** — Munich DC; €1B with NVIDIA; 0.5 EFLOPS; 20 PB storage | Germany sovereign; SAP, Siemens, Perplexity customers; digital twins via NVIDIA Omniverse | Govt + enterprise |
+| **Orange Business** 📡 | 🇫🇷 France | NVIDIA H100, Blackwell | 🟢 Live — EU-hosted | **Live Intelligence** — generative AI platform; NVIDIA NCP | France + Europe + Africa sovereign; 73,000 employees using daily; 30,000+ AI requests/day | Enterprise + public sector |
+| **Telenor** 📡 | 🇳🇴 Norway | NVIDIA AI Enterprise, GPU cluster | 🟢 Live + expanding | **Norway's first sovereign AI cloud** — new renewable-energy AI DC; surplus energy to grid | Norway sovereign; public sector, industrial automation, local LLMs; BabelSpeak multilingual AI | Public sector + enterprise |
+| **Swisscom** 📡 | 🇨🇭 Switzerland | NVIDIA DGX SuperPOD | 🟢 Live — Swiss AI Platform | **Swiss AI Platform + GenAI Studio** — enterprise AI agents; AI Work Hub; Model Catalog | Switzerland sovereign; banking, insurance, healthcare; Swiss data residency guaranteed | Regulated enterprise |
+| **Telefónica** 📡 | 🇪🇸 Spain | NVIDIA GPUs (hundreds), NIM | 🟡 Piloting edge AI | **Distributed edge AI fabric** — inference at the edge across Spain | Spain sovereign; edge-first; data stays within borders; govt and financial services | Govt + BFSI |
+| **Fastweb** 📡 | 🇮🇹 Italy | NVIDIA DGX AI supercomputer | 🟢 Live — Italy | **MIIA Italian LLM + sovereign AI cloud** — Italy's first Italian-language foundation model | Italy sovereign; Italian public admin + enterprise; NVIDIA EU sovereign program | Govt + enterprise |
 
 ### Telco AI Cloud Contacts
 
@@ -168,10 +203,12 @@
 | **L&T (Larsen & Toubro)** 🆕 | 🇮🇳 India | NVIDIA AI factory | 🟡 30 MW Chennai; 40 MW Mumbai | Gigawatt-scale sovereign NVIDIA AI factory; IndiaAI Mission; sovereign cloud + hyperscale |
 | **Reliance Industries / Jio** | 🇮🇳 India | NVIDIA | 🟡 Building | Sovereign foundation model for 20+ Indian languages |
 | **NeevCloud** ◆ | 🇮🇳 India | H100, A100 | 🟢 India | India GPU cloud; data residency compliance |
+| **E2E Cloud** ◆ | 🇮🇳 India | H100, A100 | 🟢 India | Indian GPU cloud; IT Act compliance; enterprise and startup AI demand |
 | **FPT Vietnam** ◆ | 🇻🇳 Vietnam | NVIDIA AI factory | 🟡 $200M AI factory | Vietnam sovereign cloud; digital sovereignty |
 | **GMO GPU Cloud** ◆ | 🇯🇵 Japan | NVIDIA latest GPUs | 🟢 Japan | Japan sovereign GPU cloud; data residency + compliance |
 | **NTT Data (Oracle JV)** | 🇯🇵 Japan | Oracle OCI, NVIDIA | 🟢 Japan sovereign regions | 150+ OCI services within Japanese jurisdiction |
 | **Singtel** | 🇸🇬 Singapore | NVIDIA H100, Hopper | 🟢 SE Asia AI factories | Singapore sovereign; upgraded NSCC; SE Asia AI factories |
+| **Kakao Cloud** | 🇰🇷 South Korea | GPU cloud / sovereign stack | 🟢 Korea | Important regional sovereign cloud and enterprise AI platform |
 | **DAMAC Digital — Indonesia** | 🇮🇩 Indonesia | AI-ready hyperscale | 🟡 144 MW / $2.3B | Largest single AI DC investment in Indonesia; local data residency |
 
 ### Asia-Pacific Contacts
@@ -196,6 +233,57 @@
 
 ---
 
+## Infrastructure Layer — Data Centers, Power, and Campus Developers
+
+> These companies are not always GPU cloud brands, but they are often the most strategic partners and hidden buyers because they control power, land, interconnect, and AI-ready campuses.
+
+| Company | HQ | Core Asset | Geographic Footprint | Why It Matters |
+|---|---|---|---|---|
+| **Equinix** | Redwood City, USA | Interconnection-rich data centers | Global | Critical interconnect and colocation platform for AI factories and hybrid cloud expansion |
+| **Digital Realty** | Austin, USA | Hyperscale + carrier-neutral data centers | Global | Deep relationships with hyperscalers and enterprise AI tenants |
+| **Vantage Data Centers** | Denver, USA | Large-scale AI-ready campuses | North America + EMEA + APAC | Useful for high-density AI campus buildouts |
+| **QTS** | Overland Park, USA | Powered shell + hyperscale campuses | North America | Strong US footprint and enterprise/hyperscale relevance |
+| **Aligned Data Centers** | Plano, USA | High-density liquid-ready campuses | North America + LATAM expansion | Strong fit for AI workloads and specialized density requirements |
+
+### Infrastructure Layer Contacts
+
+| Company | Name | Title | LinkedIn |
+|---|---|---|---|
+| Equinix | Adaire Fox-Martin | CEO & President | [Search LinkedIn](https://www.linkedin.com/search/results/people/?keywords=Adaire%20Fox-Martin%20Equinix%20CEO) |
+| Digital Realty | Andy Power | President & CEO | [Search LinkedIn](https://www.linkedin.com/search/results/people/?keywords=Andy%20Power%20Digital%20Realty%20CEO) |
+| Vantage Data Centers | Sureel Choksi | President & CEO | [Search LinkedIn](https://www.linkedin.com/search/results/people/?keywords=Sureel%20Choksi%20Vantage%20Data%20Centers%20CEO) |
+| QTS | Chad Williams | Founder / Executive Chairman | [Search LinkedIn](https://www.linkedin.com/search/results/people/?keywords=Chad%20Williams%20QTS) |
+| Aligned Data Centers | Andrew Schaap | CEO | [Search LinkedIn](https://www.linkedin.com/search/results/people/?keywords=Andrew%20Schaap%20Aligned%20Data%20Centers%20CEO) |
+
+---
+
+## Enterprise-Owned AI Factories / Private Compute Buyers
+
+> These are large enterprises building internal AI capacity, but many still need overflow capacity, sovereign/regional deployment, or specialized interconnect and networking.
+
+| Company | HQ | Infra Model | Why Relevant |
+|---|---|---|---|
+| **Meta** | Menlo Park, USA | Large owned clusters + external procurement | Massive internal AI capex but still part of the broader AI factory supplier ecosystem |
+| **Tesla** | Austin, USA | Owned supercomputing + targeted external demand | High-performance AI infra buyer with specialized workload needs |
+| **Apple** | Cupertino, USA | Mostly private / partner mix | Large but selective AI infrastructure demand; highly strategic deployments |
+| **ByteDance** | Beijing, China / Singapore | Large internal + partner mix | Significant AI training and inference demand with regional deployment needs |
+
+---
+
+## GPU Intermediaries / Capacity Brokers
+
+> These companies can route or aggregate demand even when they do not own all underlying infrastructure.
+
+| Company | HQ | Model | Why It Matters |
+|---|---|---|---|
+| **FluidStack** | London, UK | Wholesale GPU intermediary | Already in Tier 2 because of direct strategic relevance |
+| **Together AI** | San Francisco, USA | AI platform + capacity routing | Important for workload placement, open-source model demand, and enterprise routing |
+| **Fireworks AI** | Redwood City, USA | Inference platform | Important inference buyer/routing layer for downstream infrastructure |
+| **Scale AI** | San Francisco, USA | Data + AI infrastructure adjacency | Increasing relevance as enterprise AI infrastructure orchestrator |
+| **Groq** | Mountain View, USA | Alternative accelerator platform | Not a GPU cloud, but strategic adjacent buyer/partner in AI factory conversations |
+
+---
+
 ## Tier 3 — Enterprise / Mid-Market GPU Clouds
 
 | Company | HQ | GPU Types | Scale | Focus | Datum |
@@ -210,7 +298,6 @@
 | **DataCrunch / Verda** | Finland | H100, A100 | 100% renewable | Nordic renewable; EU sovereignty; GDPR | ◆ |
 | **Together AI** | USA | H100, A100 | — | Open-source LLM training + inference | |
 | **Paperspace (DigitalOcean)** | USA | H100, A100, RTX | — | MLOps platform + GPU cloud; $111M acquisition 2023 | |
-| **Civo** | UK | GPU + K8s | Multi-region | Simple cloud + K8s; developer-focused; transparent pricing | ◆ |
 | **Anyscale** | USA | Multi-GPU, Ray-native | — | Distributed computing on Ray; managed Ray clusters | ◆ |
 | **IONOS Cloud** | Germany | GPU cloud, bare metal | EU multi-region | Public + bare metal + managed K8s; European data residency | ◆ |
 | **Hetzner** | Germany | A100, H100 (limited) | EU + US regions | Cost-efficient EU cloud; bare metal + VPS | ◆ |
@@ -226,11 +313,12 @@
 | **Sharon AI** | Australia | NVIDIA NCP partner | 1,000+ DCs via Megaport | APAC-leading neocloud; colocation-first | |
 | **Lyceum** | EU | GPU cloud | EU | EU-built and operated; developer + AI team focus; GDPR | ◆ |
 | **Ubicloud** | USA | Bare metal | Multi-cloud | Open-source cloud; self-host or managed | ◆ |
-| **Cycle.io** | USA | Container + GPU | — | Container orchestration; bare-metal + cloud; developer PaaS | ◆ |
 
 ---
 
 ## Tier 4 — Developer / Marketplace / Serverless / Budget GPU
+
+> Lower-priority for infrastructure outbound unless the goal is ecosystem/channel development rather than core capacity sales.
 
 | Company | HQ | GPU Types | H100 $/hr | Model | Datum |
 |---|---|---|---|---|---|
@@ -245,35 +333,43 @@
 | **FriendliAI** | USA / South Korea | H100, multi | Pay-per-use | 2–3x inference speed; 490K+ models; 99.99% SLA | ◆ |
 | **Cudo Compute** | UK | H100, A100, multi | Varies | Decentralized cloud GPU; sustainability focus | ◆ |
 | **Aethir** | UAE | Enterprise GPUs | Varies | Distributed enterprise GPU; decentralized compute | ◆ |
-| **HydraHost** | USA | GPU compute | Budget | Affordable GPU; researchers + indie developers | ◆ |
-| **Spheron** | USA | H100, A100, multi | Varies | Decentralized GPU aggregator; multi-provider billing | |
 | **Beam** | USA | GPU cloud | Pay-per-use | Cloud infra for high-performance apps | ◆ |
 | **E2E Cloud** | India | H100, A100 | Budget | Indian GPU cloud; IT Act compliance | ◆ |
 | **exe.dev** | USA | VM + GPU | Pay-per-use | Modern VM; sub-second starts; built for AI coding agents | ◆ |
 
 ---
 
-## New Providers Added in This Update
+## New Providers / Segments Added in This Revision
 
-| Company | HQ | Why Added |
+| Company / Segment | HQ / Region | Why Added |
 |---|---|---|
-| **Yotta / Shakti Cloud** 🆕 | 🇮🇳 India | India's first sovereign AI cloud; 20,000+ NVIDIA Blackwell Ultra GPUs; IndiaAI Mission flagship |
-| **L&T (Larsen & Toubro)** 🆕 | 🇮🇳 India | Gigawatt-scale NVIDIA AI factory; 30 MW Chennai + 40 MW Mumbai; sovereign cloud |
-| **Latitude.sh** (updated) | Brazil / Global | Acquired by Megaport late 2025; now offers private cloud gateway to hyperscalers |
-| **CoreWeave** (updated) | NJ, USA | Acquired Weights & Biases + Core Scientific; backlog updated to $66.8B |
-| **Nscale** (updated) | London, UK | Acquired American Intelligence & Power Corp (8 GW WV microgrid); 1.35 GW Microsoft LOI |
+| **Tier 0 — Frontier AI Labs** | Global | Added to capture the true upstream demand drivers influencing capacity commitments |
+| **Tier 0 — Hyperscalers** | Global | Added because they are the largest direct GPU buyers and major drivers of neocloud demand |
+| **Riot Platforms** | USA | Major crypto-to-AI conversion candidate with relevant power and site profile |
+| **Marathon Digital** | USA | Major crypto-to-AI conversion candidate with infrastructure exposure |
+| **Infrastructure Layer** | Global | Added to capture data center and campus developers controlling land, power, and interconnect |
+| **Enterprise-Owned AI Factories** | Global | Added to reflect large private compute buyers with overflow and regional deployment needs |
+| **Together AI / Fireworks AI / Scale AI / Groq** | USA | Added to reflect routing layers and strategic adjacent buyers/partners |
+| **Kakao Cloud** | South Korea | Added to improve APAC sovereign coverage |
+| **E2E Cloud** | India | Added into sovereign APAC coverage and retained in marketplace/budget context where relevant |
 
 ---
 
 ## Sources & Methodology
 
-- [Datum Cloud awesome-alt-clouds](https://github.com/datum-cloud/awesome-alt-clouds)
-- [Synergy Research Group](https://www.srgresearch.com/) neocloud market data
-- [BloombergNEF](https://about.bnef.com/) AI data center capacity tracking
-- [SemiAnalysis ClusterMAX 2.0](https://newsletter.semianalysis.com/) GPU cloud ratings
-- [NVIDIA Newsroom](https://nvidianews.nvidia.com/) sovereign AI partnership announcements
+- Datum Cloud awesome-alt-clouds
+- Synergy Research Group neocloud market data
+- BloombergNEF AI data center capacity tracking
+- SemiAnalysis ClusterMAX 2.0 GPU cloud ratings
+- NVIDIA Newsroom sovereign AI partnership announcements
 - Company press releases, SEC filings (EDGAR), LinkedIn, and investor presentations
 
-**Last updated:** April 2026 | **~95 providers listed** | **Maintained by:** [@8bitgangsta](https://github.com/8bitgangsta)
+**Last updated:** April 2026 (revised taxonomy)  
+**Maintained by:** @8bitgangsta
 
-> 💡 To suggest additions or corrections, open an issue or PR.  
+> 💡 This revision keeps the original list structure but adds demand drivers, infrastructure-layer companies, and adjacent strategic buyers to better support outbound targeting for hedgehog.cloud.
+"""
+
+path = Path("/mnt/data/AI_Factories_GPU_Infrastructure_Master_List_2026_Revised.md")
+path.write_text(content, encoding="utf-8")
+print(path)
